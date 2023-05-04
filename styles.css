@@ -1,0 +1,127 @@
+@font-face {
+    font-family: octinsports;
+    src: url(octin\ sports\ rg.otf);
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    background-image: url('homebg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    background-color: white;
+}
+
+.logonav{
+    width: 250px;
+    margin-top: 10px;
+
+}
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+button{
+   padding: 10px 15px 10px 15px; 
+   border-radius: 30px;
+   border: none;
+   font-size: 15px;
+   color: whitesmoke;
+   background: black;
+}
+button:hover{
+    background: rgb(214,46,172);
+background: linear-gradient(90deg, rgba(214,46,172,1) 16%, rgba(195,28,53,1) 44%);
+    transition: all 1.5s ease;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.homeone{
+    margin-top: 0;
+   
+}
+h1{
+    font-family: octinsports;
+    font-size: 100px;
+   
+  }
+.legend{
+    font-family: octinsports;
+}
+.pslogan{
+    
+    font-size: 16px;
+    color: blueviolet;
+    border: 2px rgb(104, 13, 207) solid;
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 12px 2px 1px rgba(255, 0, 234, 0.623);
+}
+.about{
+    margin-top: 150px;
+    padding-top: 20px;
+    background-color: white;
+}
+.abimage{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.aboutimages{
+    width: 300px;
+    border-radius: 30px;
+    padding: 30px;
+}
+.abouttitle{
+    font-family: octinsports;
+    font-size: 75px;
+}
+.ourstory{
+    font-size: 35px;
+    color: rgb(119, 16, 114);
+    font-family: octinsports;
+}
+.abouttext{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.flexprod{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.flexprodimg{
+    width: 200px;
+   height: 100px;
+   padding: 20px;
+   border-radius: 25%;
+}
+.products{
+    margin-top: 50px;
+    padding-top: 60px;
+    background-color: white; 
+    padding-bottom: 30px; 
+}
+.prodtitle{
+    font-family: octinsports;
+    font-size: 75px;
+}
+.here{
+    color: blue;
+}
